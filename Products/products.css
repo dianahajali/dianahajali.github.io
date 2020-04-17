@@ -13,26 +13,8 @@ body {
 }
 
 .column {
-    align-self: flex-start;
+    justify-content: center;
     width: 50%;
-}
-
-img.resume {
-    background-color: white;
-    border-color: black;
-    border-style: solid;
-    border-width: 1px;
-}
-
-#left {
-    width: 88%;
-    margin-left: 11%;
-}
-
-#right {
-    width: 88%;
-    margin-right: 11%;
-    margin-left: 5px;
 }
 
 h1 {
@@ -52,17 +34,6 @@ h1 {
     border-style: solid;
     padding: 0px;
     padding-left: 40px;
-}
-
-#download {
-    text-align: center;
-    background-color: whitesmoke;
-    padding: 10px;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
-    margin-left: 11%;
-    max-width: 120px;
 }
 
 #back {
@@ -91,39 +62,32 @@ a:visited {
     color: rgb(88, 88, 88);
 }
 
-#photo {
-    width: 100%; 
-    margin-left: 80px;
-    border-style: solid;
+p {
+    text-align: center;
+}
+
+img.left {
+    margin-left: 11%;
+    margin-right: auto;
+    display: block;
+    background-color: white;
+    width: 80%;
     border-color: black;
+    border-style: solid;
     border-width: 1px;
 }
 
-p.description {
-    margin-left: 120px;
-    margin-right: 80px;
+img.right {
+    margin-left: auto;
+    margin-right: 11%;
+    display: block;
+    background-color: white;
+    width: 80%;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
 }
 
-img.icon {
-    width: 40%;
-    margin-left: 45%;
-    justify-self: left;
-}
-
-.info {
-    align-self: center;
-    width: 13%;
-}
-
-.maincontact {
-    align-items: center;
-    justify-content: flex-start;
-    display: flex;
-    margin-top: 15px;
-}
-
-p.contact {
-    text-align: left;
-    font-size: 24px;
-    margin-left: 10%;
+#back {
+    text-align: center;
 }
